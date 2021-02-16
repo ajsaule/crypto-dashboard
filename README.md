@@ -20,7 +20,14 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 - The % percentage change feature does not function as desired 
 - Ripple button does not return data properly, JSON parsing error of some kind 
 
-#### To run working version on your local machine 
+### If I could do it again
+- I would design the UI myself
+- Think it out more in terms of fault tolerance 
+- Design with an orientation toward scalability in the code
+- Fix the bugs around XRP and % change 
+- Get the serverless function to work in vercel
+
+### To run working version on your local machine 
 1. clone or download ZIP files 
 2. open project in code 
 2. run `npm install`
@@ -29,14 +36,6 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 5. run `npm start`
 6. React project will compile and new tab will open with React project running
 7. *Now feel free to test my half working app!*
-
-## If I could do it again
-- I would design the UI myself
-- Think it out more in terms of fault tolerance 
-- Design with an orientation toward scalability in the code
-- Fix the bugs around XRP and % change 
-- Get the serverless function to work in vercel 
-
 
 
 
