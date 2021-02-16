@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To test the project click [here](https://crypto-dashboard-five.vercel.app/).
+
 1. Broke down the steps that I needed to take to expose the endpoint 
     - Install all dependencies for endpoint (express, @babel/core, @babel/node, @babel/preset-env, axios) 
         - @babel/preset-env package is so we don't have to configure many things on babel
