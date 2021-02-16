@@ -45,3 +45,5 @@ app.get('/XRP', async (req, res) => {
         res.status(401).send(err.data)
     }
 })
+
+module.exports = app 

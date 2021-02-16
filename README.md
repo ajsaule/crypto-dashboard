@@ -23,8 +23,9 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 ## If I could do it again
 - I would design the UI myself
 - Think it out more in terms of fault tolerance 
-- Design with an orientation toward scalability with the code
+- Design with an orientation toward scalability in the code
 - Fix the bugs around XRP and % change 
+- Get the serverless function to work in vercel 
 
 
 
