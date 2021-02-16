@@ -3,12 +3,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 1. Broke down the steps that I needed to take to expose the endpoint 
-    a. Install all dependencies for endpoint (express, @babel/core, @babel/node, @babel/preset-env, axios) 
+    - Install all dependencies for endpoint (express, @babel/core, @babel/node, @babel/preset-env, axios) 
         - @babel/preset-env package is so we don't have to configure many things on babel
-    b. Initialised an app variable by calling express
-    c. Setup routes for each desired coin e.g. BTC, ETH, XRP
-    d. Setup an Axios call inside each app.get route so that we can get a JSON back and display the relevant data to the UI 
-    e. Setup an app.use to allow access controls
+    - Initialised an app variable by calling express
+    - Setup routes for each desired coin e.g. BTC, ETH, XRP
+    - Setup an Axios call inside each app.get route so that we can get a JSON back and display the relevant data to the UI 
+    - Setup an app.use to allow access controls
 2. Analysed the structure that the trade.cointree.com/api endpoint provides, accessed the data from the object to display it on the virtual React DOM 
 3. Initialised a new React.js app project 
 4. Bootstrapped with existing code provided in the React.js boilerplates 
