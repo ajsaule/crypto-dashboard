@@ -21,7 +21,7 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 - Ripple button does not return data properly, JSON parsing error of some kind 
 
 ### If I could do it again
-- I would design the UI myself
+- I would design the UI myself instead of heavily bootstrapping
 - Think it out more in terms of fault tolerance 
 - Design with an orientation toward scalability in the code
 - Fix the bugs around XRP and % change 
