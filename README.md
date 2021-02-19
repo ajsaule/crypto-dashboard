@@ -29,7 +29,7 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 
 ### To run working version on your local machine 
 1. clone or download ZIP files 
-2. open project in code 
+2. open project in vs code or other IDE
 2. run `npm install`
 3. run `npm run server`
 4. open new terminal window
