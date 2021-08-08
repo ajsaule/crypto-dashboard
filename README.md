@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 
+*Doesn't work in production at the moment*
+
 1. Broke down the steps that I needed to take to expose the endpoint 
     - Install all dependencies for endpoint (express, @babel/core, @babel/node, @babel/preset-env, axios) 
         - @babel/preset-env package is so we don't have to configure many things on babel
@@ -21,7 +23,7 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 - Ripple button does not return data properly, JSON parsing error of some kind 
 
 ### If I could do it again
-- I would design the UI myself
+- I would design the UI myself instead of heavily bootstrapping
 - Think it out more in terms of fault tolerance 
 - Design with an orientation toward scalability in the code
 - Fix the bugs around XRP and % change 
@@ -29,7 +31,7 @@ To test the project click [here](https://crypto-dashboard-five.vercel.app/).
 
 ### To run working version on your local machine 
 1. clone or download ZIP files 
-2. open project in code 
+2. open project in vs code or other IDE
 2. run `npm install`
 3. run `npm run server`
 4. open new terminal window
