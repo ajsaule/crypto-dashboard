@@ -11,7 +11,11 @@ function App() {
   });
 
   const checkCrypto = (coin) => {
-    const apiURL = `${window.location.href}/${coin}`;
+    const apiURL = `${
+      window.location.href.slice(-1) === "/"
+        ? window.location.href + `api/app/${coin}`
+        : window.location.href + `/api/app/${coin}`
+    }`;
 
     fetch(apiURL)
       .then((response) => response.json())
